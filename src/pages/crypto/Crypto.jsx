@@ -3,17 +3,23 @@ import { ThemeContext } from "../../context/ThemeContext";
 import axios from 'axios';
 
 export const Crypto = () => {
-  const { theme } = useContext(ThemeContext);
   const [cryptoData, setCryptoData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchCrypto = async () => {
-      try {
-        const response = await axios.get('http://localhost:5001/api/crypto');
-        setCryptoData(response.data);
+      try{
+        const response = await axios.get('/api/crypto');  // Adjust this path based on your deployment
+        console.log("API Response:", response.data);
+        if (Array.isArray(response.data)) {
+          setCryptoData(response.data);
+        } else {
+          console.log(response.data)
+          setError(new Error('Unexpected response format'));
+        }
       } catch (error) {
+        console.log(response.data)
         console.error('Error fetching data:', error);
         setError(error);
       } finally {

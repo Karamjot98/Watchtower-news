@@ -1,12 +1,9 @@
 {
-  "homepage": "https://Karamjot98.github.io/Watchtower-news",
   "city": "watchtowernews",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
