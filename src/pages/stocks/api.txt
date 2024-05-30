@@ -1,0 +1,4 @@
+https://api.polygon.io/v2/aggs/grouped/locale/us/market/stocks/2023-01-09?adjusted=true&apiKey=T5pJYNYotQBzUNExgii12eAXh61Snvpn
+
+
+ploygon.api

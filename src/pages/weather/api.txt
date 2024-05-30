@@ -1,0 +1,4 @@
+https://openweathermap.org/img/wn/{icon_num}@2x.png     imgae search
+
+
+https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={}

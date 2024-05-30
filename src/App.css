@@ -1,0 +1,165 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.nav li{
+    margin-left: 20px;
+}
+.all{
+    height:100vh;
+    background-color:rgba(0,0,0,0)
+}
+
+.header{
+    font-size: x-large;
+    display:flex;
+    
+    background-color:rgba(0,0,0,0);
+    font-weight: bold;
+    color: #707070;
+    font-family: Black;
+}
+.main{
+    
+}
+
+
+footer{
+    background-color:rgba(0,0,0,0);
+    border-top: 2px solid #707070;
+    text-align: center;
+    /* Position the footer at the bottom */
+    padding-top: 10px;
+    font-size:large;
+    color: #707070;
+    width: 100%;
+    height:70px
+}
+.light-theme-button{
+    border-color: black;
+    background-color: white;
+    justify-content: flex-start;
+}
+.dark-theme-button{
+    justify-content: flex-end;
+    border-color: white;
+    background-color: black;
+}
+.light-button-circle{
+    border-color: black;
+    background-color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.dark-button-circle{
+    border-color: white;
+    background-color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.movie-card{
+    max-height: 600px;
+}
+.movie-image{
+    height:450px
+}
+/* styles.css */
+.crypto-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .crypto-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 16px;
+  }
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .crypto-table th, .crypto-table td {
+    padding: 12px 15px;
+  }
+  
+  .crypto-table thead th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .crypto-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .crypto-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .crypto-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .crypto-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .currency-converter {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .currency-converter.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .currency-converter label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .currency-converter input[type="number"],
+  .currency-converter select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .currency-converter button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .currency-converter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .currency-converter h1,
+  .currency-converter h2 {
+    text-align: center;
+  }
+  
+/*
+*/

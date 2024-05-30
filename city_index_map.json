@@ -1,0 +1,110 @@
+{
+    "a": {
+        "startIndex": 0,
+        "endIndex": 736
+    },
+    "b": {
+        "startIndex": 737,
+        "endIndex": 1585
+    },
+    "c": {
+        "startIndex": 1586,
+        "endIndex": 2299
+    },
+    "d": {
+        "startIndex": 2300,
+        "endIndex": 2650
+    },
+    "e": {
+        "startIndex": 10556,
+        "endIndex": 10557
+    },
+    "f": {
+        "startIndex": 2866,
+        "endIndex": 3045
+    },
+    "g": {
+        "startIndex": 3046,
+        "endIndex": 3403
+    },
+    "h": {
+        "startIndex": 3404,
+        "endIndex": 3718
+    },
+    "i": {
+        "startIndex": 3719,
+        "endIndex": 3897
+    },
+    "j": {
+        "startIndex": 3898,
+        "endIndex": 4093
+    },
+    "k": {
+        "startIndex": 4094,
+        "endIndex": 4867
+    },
+    "l": {
+        "startIndex": 10558,
+        "endIndex": 10559
+    },
+    "m": {
+        "startIndex": 10560,
+        "endIndex": 10560
+    },
+    "n": {
+        "startIndex": 6216,
+        "endIndex": 6625
+    },
+    "o": {
+        "startIndex": 6626,
+        "endIndex": 6848
+    },
+    "p": {
+        "startIndex": 6849,
+        "endIndex": 7500
+    },
+    "q": {
+        "startIndex": 7501,
+        "endIndex": 7595
+    },
+    "r": {
+        "startIndex": 7596,
+        "endIndex": 7895
+    },
+    "s": {
+        "startIndex": 7896,
+        "endIndex": 9083
+    },
+    "t": {
+        "startIndex": 9084,
+        "endIndex": 9675
+    },
+    "u": {
+        "startIndex": 9676,
+        "endIndex": 9767
+    },
+    "v": {
+        "startIndex": 10561,
+        "endIndex": 10561
+    },
+    "w": {
+        "startIndex": 10092,
+        "endIndex": 10252
+    },
+    "x": {
+        "startIndex": 10253,
+        "endIndex": 10274
+    },
+    "y": {
+        "startIndex": 10275,
+        "endIndex": 10376
+    },
+    "z": {
+        "startIndex": 10377,
+        "endIndex": 10536
+    },
+    "`": {
+        "startIndex": 10537,
+        "endIndex": 10555
+    }
+}
